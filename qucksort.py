@@ -35,7 +35,8 @@ def checkArray(array, low, high):
 
 
 # TEST
-unsortedArray = [22, -2, 33, 32, 0, -2, 11, 3, 500, 100]
-quickSort(unsortedArray, 0, len(unsortedArray) - 1)
-print(unsortedArray)
+if __name__ == '__main__':
+  unsortedArray = [22, -2, 33, 32, 0, -2, 11, 3, 500, 100]
+  quickSort(unsortedArray, 0, len(unsortedArray) - 1)
+  print(unsortedArray)
 
